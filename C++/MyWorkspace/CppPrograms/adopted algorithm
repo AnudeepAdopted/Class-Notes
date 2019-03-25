@@ -1,0 +1,12 @@
+Algorithms:
+STL provides diffrent types of algorithms that can be implemented upon any of the container with the help of iterators, we dont have to define complex algorithm instead we jsut use built in functions provided by the algorithm library. There are diffrent types of algorithms in STL. They are:
+1) Sorting algorithms
+2) Non-modifying algorithms
+3) Mutating algothims
+4) Numeric algorithms
+
+Sorting algorithms - 
+1) sort()
+2) is_sorted()
+3) partial_sort()
+

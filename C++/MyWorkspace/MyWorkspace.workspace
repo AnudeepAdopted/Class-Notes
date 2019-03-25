@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeLite_Workspace Name="MyWorkspace" Database="" Version="10.0.0">
+  <Project Name="Project1" Path="Project1/Project1.project" Active="No"/>
+  <Project Name="CppPrograms" Path="CppPrograms/CppPrograms.project" Active="No"/>
+  <Project Name="ForwardList" Path="ForwardList/ForwardList.project" Active="No"/>
+  <Project Name="ForwardList2" Path="ForwardList2/ForwardList2.project" Active="No"/>
+  <Project Name="ForwardList3" Path="ForwardList3/ForwardList3.project" Active="No"/>
+  <Project Name="AdoptedAlgorithm" Path="AdoptedAlgorithm/AdoptedAlgorithm.project" Active="Yes"/>
+  <BuildMatrix>
+    <WorkspaceConfiguration Name="Debug" Selected="yes">
+      <Environment/>
+      <Project Name="Project1" ConfigName="Debug"/>
+      <Project Name="CppPrograms" ConfigName="Debug"/>
+      <Project Name="ForwardList" ConfigName="Debug"/>
+      <Project Name="ForwardList2" ConfigName="Debug"/>
+      <Project Name="ForwardList3" ConfigName="Debug"/>
+      <Project Name="AdoptedAlgorithm" ConfigName="Debug"/>
+    </WorkspaceConfiguration>
+    <WorkspaceConfiguration Name="Release" Selected="yes">
+      <Environment/>
+      <Project Name="Project1" ConfigName="Release"/>
+      <Project Name="CppPrograms" ConfigName="Release"/>
+      <Project Name="ForwardList" ConfigName="Release"/>
+      <Project Name="ForwardList2" ConfigName="Release"/>
+      <Project Name="ForwardList3" ConfigName="Release"/>
+      <Project Name="AdoptedAlgorithm" ConfigName="Release"/>
+    </WorkspaceConfiguration>
+  </BuildMatrix>
+</CodeLite_Workspace>
