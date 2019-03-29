@@ -5,7 +5,17 @@
   <Project Name="ForwardList" Path="ForwardList/ForwardList.project" Active="No"/>
   <Project Name="ForwardList2" Path="ForwardList2/ForwardList2.project" Active="No"/>
   <Project Name="ForwardList3" Path="ForwardList3/ForwardList3.project" Active="No"/>
-  <Project Name="AdoptedAlgorithm" Path="AdoptedAlgorithm/AdoptedAlgorithm.project" Active="Yes"/>
+  <Project Name="AdoptedAlgorithm" Path="AdoptedAlgorithm/AdoptedAlgorithm.project" Active="No"/>
+  <Project Name="NonModifyingAlgorithms" Path="NonModifyingAlgorithms/NonModifyingAlgorithms.project" Active="No"/>
+  <Project Name="Equal_Vectors" Path="Equal_Vectors/Equal_Vectors.project" Active="No"/>
+  <Project Name="Mismatch" Path="Mismatch/Mismatch.project" Active="No"/>
+  <Project Name="Search" Path="Search/Search.project" Active="No"/>
+  <Project Name="partial_sum" Path="partial_sum/partial_sum.project" Active="No"/>
+  <Project Name="accumulate" Path="accumulate/accumulate.project" Active="No"/>
+  <VirtualDirectory Name="Modifying algorithms">
+    <Project Name="copy" Path="copy/copy.project" Active="No"/>
+  </VirtualDirectory>
+  <Project Name="TestingTheImpossible" Path="TestingTheImpossible/TestingTheImpossible.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="yes">
       <Environment/>
@@ -15,6 +25,14 @@
       <Project Name="ForwardList2" ConfigName="Debug"/>
       <Project Name="ForwardList3" ConfigName="Debug"/>
       <Project Name="AdoptedAlgorithm" ConfigName="Debug"/>
+      <Project Name="NonModifyingAlgorithms" ConfigName="Debug"/>
+      <Project Name="Equal_Vectors" ConfigName="Debug"/>
+      <Project Name="Mismatch" ConfigName="Debug"/>
+      <Project Name="Search" ConfigName="Debug"/>
+      <Project Name="partial_sum" ConfigName="Debug"/>
+      <Project Name="accumulate" ConfigName="Debug"/>
+      <Project Name="copy" ConfigName="Debug"/>
+      <Project Name="TestingTheImpossible" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release" Selected="yes">
       <Environment/>
@@ -24,6 +42,14 @@
       <Project Name="ForwardList2" ConfigName="Release"/>
       <Project Name="ForwardList3" ConfigName="Release"/>
       <Project Name="AdoptedAlgorithm" ConfigName="Release"/>
+      <Project Name="NonModifyingAlgorithms" ConfigName="Release"/>
+      <Project Name="Equal_Vectors" ConfigName="Release"/>
+      <Project Name="Mismatch" ConfigName="Release"/>
+      <Project Name="Search" ConfigName="Release"/>
+      <Project Name="partial_sum" ConfigName="Release"/>
+      <Project Name="accumulate" ConfigName="Release"/>
+      <Project Name="copy" ConfigName="Release"/>
+      <Project Name="TestingTheImpossible" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>
